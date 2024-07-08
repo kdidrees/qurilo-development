@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         'sans': ['Nunito Sans', 'ui-sans-serif', 'system-ui'],
       },
+      colors:{
+        'webdevbg':'#F2F2F2'
+      }
     },
   },
   plugins: [],

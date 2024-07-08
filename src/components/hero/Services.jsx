@@ -67,11 +67,17 @@ export default function Services() {
 
   return (
     <>
-      <div className="min-h-screen  bg-gray-200 flex-col flex  items-center py-20">
-        <div class="text-center mx-auto mb-8 lg:px-20">
-          <h1 className="text-black md:text-5xl z-20">Services</h1>
+      <div className="min-h-screen  bg-webdevbg flex-col flex  items-center py-20">
+        <div className="flex items-center justify-center w-full mt-6 px-28">
+          <div className="flex-grow border-t border-black"></div>
+          <span className="px-28 text-black md:text-5xl z-20  font-sans">
+            Services
+          </span>
+          <div className="flex-grow border-t border-black"></div>
+        </div>
 
-          <p class="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2">
+        <div class="text-center mx-auto mb-8 lg:px-20">
+          <p class="text-gray-500 font-sans leading-relaxed font-light text-xl mx-auto pb-2">
             Save time managing advertising &amp; Content for your business.
           </p>
         </div>
@@ -89,11 +95,11 @@ export default function Services() {
                     alt="Colors"
                   />
                 </div>
-                <h1 className="mt-4 text-gray-800 text-2xl font-bold cursor-pointer">
+                <h1 className="mt-4 font-sans text-gray-800 text-2xl font-bold cursor-pointer">
                   {service.heading}
                 </h1>
                 <div className="my-4">
-                  <p className="text-black   md:text-base mx-auto pb-2">
+                  <p className="text-black font-sans  md:text-base mx-auto pb-2">
                     {service.desc}
                   </p>
                 </div>
