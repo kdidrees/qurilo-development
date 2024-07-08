@@ -70,7 +70,7 @@ export default function Services() {
       <div className="min-h-screen  bg-webdevbg flex-col flex  items-center py-20">
         <div className="flex items-center justify-center w-full mt-6 px-28">
           <div className="flex-grow border-t border-black"></div>
-          <span className="px-28 text-black md:text-5xl z-20  font-sans">
+          <span className="px-28 text-2xl text-black md:text-5xl z-20  font-sans">
             Services
           </span>
           <div className="flex-grow border-t border-black"></div>
